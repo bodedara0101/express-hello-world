@@ -13,14 +13,14 @@ const html = `
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Hello from Render!</title>
+    <title>Hello from Development!</title>
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
     <script>
       setTimeout(() => {
         confetti({
           particleCount: 10,
           spread: 70,
-          origin: { y: 0.6 },
+          origin: { y: 0.5  },
           disableForReducedMotion: true
         });
       }, 500);
@@ -54,7 +54,7 @@ const html = `
   </head>
   <body>
     <section>
-      Hello from Render!
+      Hello from development!
     </section>
   </body>
 </html>
